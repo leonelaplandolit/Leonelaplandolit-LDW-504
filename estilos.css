@@ -90,7 +90,7 @@ button {
 
 button:hover {
     transform: scale(1.05);
-    background-color: #d44f70;
+    background-color: #60b164;
 }
 .imagenes-presentacion {
     width: 55%;
