@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f2e8;
+    background-color: #f5f2ec;
     color: #252525;
 }
 
@@ -22,7 +22,7 @@ header {
 header h1 {
     font-size: 32px;
     letter-spacing: 3px;
-    color: #9ceca3;
+    color: #e76486;
 }
 
 nav {
@@ -38,8 +38,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #9ceca3;
+    color: #e76486;
 }
+
+/* PRESENTACIÓN */
 
 .presentacion {
     min-height: 650px;
@@ -80,7 +82,7 @@ button {
     padding: 15px 25px;
     border: none;
     border-radius: 30px;
-    background-color:#74d87d;
+    background-color: #e76486;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -89,14 +91,18 @@ button {
 
 button:hover {
     transform: scale(1.05);
-    background-color: #60b164;
+    background-color: #d44f70;
 }
+
+/* CONTENEDOR E IMÁGENES SUPERPUESTAS */
+
 .imagenes-presentacion {
     width: 55%;
     height: 550px;
     position: relative;
 }
 
+/* Imagen con textura (arriba a la derecha) */
 .imagen-secundaria {
     width: 380px;
     height: 300px;
@@ -107,6 +113,7 @@ button:hover {
     z-index: 1;
 }
 
+/* Foto principal (abajo a la izquierda, solapada encima de la textura) */
 .imagen-principal {
     width: 380px;
     height: 420px;
@@ -117,6 +124,8 @@ button:hover {
     z-index: 2;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+/* PIE DE PÁGINA */
 
 footer {
     background-color: #222;
@@ -129,7 +138,7 @@ footer h3 {
     font-size: 25px;
     letter-spacing: 3px;
     margin-bottom: 15px;
-    color: #9ceca3;
+    color: #e76486;
 }
 
 footer p {
