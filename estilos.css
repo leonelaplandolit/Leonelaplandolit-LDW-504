@@ -41,13 +41,13 @@ header h1 {
 .texto-presentacion h2 {
     font-size: 48px;
     font-weight: normal;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     color: #326748;
 }
 
 .texto-presentacion p {
     line-height: 1.8;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #555;
     max-width: 500px;
 }
