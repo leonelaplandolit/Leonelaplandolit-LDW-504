@@ -39,7 +39,6 @@ nav a {
 
 nav a:hover {
     color: #9ceca3;
-;
 }
 .presentacion {
     min-height: 650px;
@@ -81,7 +80,6 @@ button {
     border: none;
     border-radius: 30px;
     background-color:#74d87d;
-;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -129,7 +127,6 @@ footer h3 {
     letter-spacing: 3px;
     margin-bottom: 15px;
     color: #9ceca3;
-;
 }
 
 footer p {
