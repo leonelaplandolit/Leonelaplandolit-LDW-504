@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0c48c;
+    background-color: #f5f2ec;
     color: #252525;
 }
 
@@ -40,6 +40,7 @@ nav a {
 nav a:hover {
     color: #9ceca3;
 }
+
 .presentacion {
     min-height: 650px;
     padding: 60px 10%;
@@ -95,6 +96,7 @@ button:hover {
     height: 550px;
     position: relative;
 }
+
 .imagen-secundaria {
     width: 380px;
     height: 300px;
@@ -104,6 +106,7 @@ button:hover {
     right: 0;
     z-index: 1;
 }
+
 .imagen-principal {
     width: 380px;
     height: 420px;
