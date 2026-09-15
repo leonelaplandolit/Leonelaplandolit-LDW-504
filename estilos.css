@@ -126,3 +126,13 @@ footer p {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+.tarjeta {
+  text-decoration: none; 
+  color: inherit;         
+}
+
+.tarjeta h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #326748;
+}
