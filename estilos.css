@@ -71,9 +71,7 @@ header h1 {
     height: 280px;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
+    
 }
 
 .imagen-principal {
