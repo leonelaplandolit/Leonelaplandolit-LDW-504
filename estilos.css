@@ -99,26 +99,26 @@ footer p {
 }
 .tarjetas {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 30px;
+    width: 100%;
 }
 
 .tarjeta {
-    width: 30%;
+    width: 300px;
     text-decoration: none;
-    color: #222;
+    color: black;
 }
 
 .tarjeta img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     display: block;
 }
 
 .tarjeta h3 {
-    font-size: 19px;
     text-align: center;
     margin-top: 15px;
-    line-height: 1.4;
 }
