@@ -113,22 +113,3 @@ footer p {
     gap: 40px;
     width: 100%;
 }
-
-.tarjeta {
-    width: 100%;
-    text-decoration: none;
-    color: #252525;
-}
-
-.tarjeta img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    display: block;
-}
-
-.tarjeta h3 {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 18px;
-}
