@@ -88,12 +88,6 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.intereses h2 {
-  font-size: 15px;
-    letter-spacing: 3px;
-    color: #58a97c;
-    margin-left: 40px;
-}
 footer {
     background-color: #1e2922;
     color: white;
