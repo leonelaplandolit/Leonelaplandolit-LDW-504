@@ -97,18 +97,19 @@ footer {
 footer p {
     margin: 5px;
 }
-
 .gustos {
-  max-width: 1000px;
-  margin: 20 auto; 
-  text-align: center;
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 50px;
+  text-align: left;
+  
 }
-
 .intereses {
   display: flex;
-  justify-content: center; 
-  gap: 20px;               
-  flex-wrap: wrap;         
+  justify-content: flex-start; 
+  gap: 25px; 
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .tarjeta img {
