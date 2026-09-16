@@ -100,10 +100,9 @@ footer p {
 
 .gustos {
   max-width: 1000px;
-  margin: 0 auto; 
+  margin: 20 auto; 
   text-align: center;
 }
-
 
 .intereses {
   display: flex;
