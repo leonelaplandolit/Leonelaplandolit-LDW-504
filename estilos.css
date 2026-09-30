@@ -29,6 +29,7 @@ header h1 {
     display: flex;
     list-style: none;
     gap: 20px;
+    color: #326748;
 }
 
 .navegacion a {
