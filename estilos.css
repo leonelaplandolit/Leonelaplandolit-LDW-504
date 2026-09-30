@@ -25,6 +25,24 @@ header h1 {
     color: #58a97c;
 }
 
+.navegacion ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #326748;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navegacion a:hover {
+    color: #58a97c;
+}
+
 .presentacion {
     min-height: calc(100vh - 80px);
     padding: 20px 10% 30px 10%;
@@ -46,18 +64,16 @@ header h1 {
     margin-bottom: 10px;
 }
 
+h1, h2, h3, .texto-presentacion h2, .gustos h2 {
+    color: #326748;
+}
+
 .texto-presentacion h2 {
     font-size: 42px;
     font-weight: normal;
     margin-bottom: 15px;
-    color: #326748;
 }
-.navegacion ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: #326748;
-}
+
 .texto-presentacion p {
     line-height: 1.7;
     margin-bottom: 12px;
@@ -93,59 +109,60 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.gustos {
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.gustos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.intereses {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 25px; 
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.tarjeta {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.tarjeta img {
+    width: 200px;            
+    height: 200px;           
+    object-fit: cover;     
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover img {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #326748;
+    text-align: center;
+    text-decoration: none;
+}
+
 footer {
     background-color: #1e2922;
     color: white;
     text-align: center;
     padding: 40px;
-    padding-top: 40px;
 }
 
 footer p {
     margin: 5px;
-}
-.gustos {
-    width: 100%;
-    padding: 0 10%;
-    margin-top: 50px;
-    text-align: left
- }
-.intereses {
-  display: flex;
-  justify-content: flex-start; 
-  gap: 25px; 
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 60px;
-}
-
-.tarjeta img {
-  width: 200px;            
-  height: 200px;           
-  object-fit: cover;     
-  border-radius: 8px;  
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.tarjeta:hover img {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-.tarjeta {
-  text-decoration: none; 
-  color: inherit;         
-}
-
-.tarjeta h3 {
-  margin-top: 10px;
-  font-size: 18px;
-  color: #326748;
-  text-align: center;
-  text-decoration: none;
-}
-
-h1, h2, h3, .texto-presentacion h2, .gustos h2 {
-    color: #326748;
 }
